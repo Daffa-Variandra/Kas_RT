@@ -1,0 +1,34 @@
+# --- FILES LOKAL & LOG ---
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+Thumbs.db
+*.bat
+
+# --- IDE & EDITOR ---
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+.phpactor.json
+.phpunit.result.cache
+
+# --- DEPENDENCIES (BERAT) ---
+/node_modules
+/vendor
+
+# --- COMPILED ASSETS & STORAGE ---
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/.phpunit.cache
+
+# --- KONFIGURASI LAIN ---
+Homestead.json
+Homestead.yaml
+/auth.json
